@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/lambdafundcal.iml" filepath="$PROJECT_DIR$/.idea/lambdafundcal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/myfirstpyproject.iml" filepath="$PROJECT_DIR$/.idea/myfirstpyproject.iml" />
+    </modules>
+  </component>
+</project>
