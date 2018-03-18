@@ -6,8 +6,9 @@
 ### dynamodb_tool
 dynamodb_tool里实现了一个较为通用的对象型数据库工具。
 新的Table可以参考tables.py里的定义方式。
-__table__名字定义好之后，会自动的和dynamodb里的表关联好。（通过metaclass）
-下面的AssistCloumnClass用于定义一些可能需要的列，为了方便写代码的时候能有代码提示，在运行的时候，这些定义会被删除。
+__table__名字定义好之后，会自动的和dynamodb里的表关联好（通过metaclass）。
+AssistCloumnClass用于定义一些可能需要的列，为了方便写代码的时候能有代码提示，
+在生成类对象的时候，这些定义会被删除。
 
 ### local
 local里是一些本地的操作，主要是对原始的数据进行预处理，并插入到dynamodb中。
