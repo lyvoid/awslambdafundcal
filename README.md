@@ -13,7 +13,7 @@ AssistCloumnClass用于定义一些可能需要的列，为了方便写代码的
 ### local
 local里是一些本地的操作，主要是对原始的数据进行预处理，并插入到dynamodb中。
 需要额外安装pandas环境。
-
+(才发现jupyter notebook文件没上传，已经弄丢了，就懒得再补充了）
 
 ### fabfile.py
 用于自动部署lambda服务，这里采用了一个中转的服务器，主要是因为本地直接传aws太慢了。
