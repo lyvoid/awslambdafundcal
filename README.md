@@ -1,7 +1,7 @@
 ## awslambdafundcal
 
-重写了一遍fundcal，主要用来每天拉去大盘数据，简单分析后把结果发送到自己邮箱。
-这次使用了aws的lambda服务，并采用dynamodb作为数据存储，通过fabric自动打包并部署到aws上。
+主要用来每天拉去大盘数据，简单分析后把结果发送到自己邮箱。
+使用了aws的lambda服务，并采用dynamodb作为数据存储，通过fabric自动打包并部署到aws上。
 
 ### dynamodb_tool
 dynamodb_tool里实现了一个较为通用的对象型数据库工具。
